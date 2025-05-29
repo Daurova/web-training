@@ -10,11 +10,7 @@
  * Решение должно учитывать любую вложенность элементов (т.е. не должно содержать рекурсивные вызовы).
  */
 
-flatten([1, 'any [complex] string', null, function() {}, [1, 2, [3, '4'], 0], [], { a: 1 }]);
 // возвращает
 //      [1, 'any [complex] string', null, function() {}, 1, 2, 3, '4', 0, { a: 1 }]
 
-function flatten(list) {
-    // code here
-}
-```
+
